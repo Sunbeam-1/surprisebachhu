@@ -58,6 +58,29 @@
   }
   #envelope-screen.hidden{opacity:0;visibility:hidden;pointer-events:none;}
 
+  .screen-doodle{
+    position:absolute;pointer-events:none;user-select:none;z-index:0;
+    font-family:'Caveat',cursive;line-height:1;zoom:1.22;
+  }
+  .screen-doodle.s1{left:8%;top:13%;font-size:42px;color:var(--heart);transform:rotate(-18deg);}
+  .screen-doodle.s2{right:10%;top:17%;font-size:47px;color:var(--rose);transform:rotate(14deg);}
+  .screen-doodle.s3{left:16%;top:39%;font-size:34px;color:#d99a2b;transform:rotate(11deg);}
+  .screen-doodle.s4{right:15%;top:43%;font-size:38px;color:var(--denim);transform:rotate(-12deg);}
+  .screen-doodle.s5{left:7%;bottom:19%;font-size:39px;color:var(--rose);transform:rotate(20deg);}
+  .screen-doodle.s6{right:8%;bottom:16%;font-size:45px;color:var(--heart);transform:rotate(-15deg);}
+  .screen-doodle.s7{left:30%;top:24%;font-size:24px;color:var(--denim);transform:rotate(-8deg);}
+  .screen-doodle.s8{right:29%;bottom:25%;font-size:26px;color:#d99a2b;transform:rotate(15deg);}
+  .screen-doodle.s9{left:22%;bottom:9%;font-size:28px;color:var(--heart);transform:rotate(-10deg);}
+  .screen-doodle.s10{right:23%;top:9%;font-size:27px;color:var(--denim);transform:rotate(8deg);}
+  .screen-doodle.s11{left:4%;top:58%;font-size:26px;color:#d99a2b;transform:rotate(-20deg);}
+  .screen-doodle.s12{right:4%;top:64%;font-size:29px;color:var(--rose);transform:rotate(16deg);}
+  .screen-doodle.s13{left:11%;top:27%;font-size:25px;color:var(--denim);transform:rotate(-7deg);}
+  .screen-doodle.s14{right:12%;top:29%;font-size:31px;color:#d99a2b;transform:rotate(9deg);}
+  .screen-doodle.s15{left:27%;bottom:16%;font-size:27px;color:var(--rose);transform:rotate(-13deg);}
+  .screen-doodle.s16{right:28%;top:53%;font-size:24px;color:var(--heart);transform:rotate(18deg);}
+  .screen-doodle.s17{left:5%;bottom:34%;font-size:24px;color:var(--denim);transform:rotate(12deg);}
+  .screen-doodle.s18{right:5%;bottom:35%;font-size:26px;color:#d99a2b;transform:rotate(-18deg);}
+
   .hero-headline{
     position:relative;
     text-align:center;
@@ -148,6 +171,17 @@
     text-align:center;margin:0;
   }
 
+  .envelope-doodle{
+    position:absolute;z-index:6;pointer-events:none;user-select:none;
+    font-family:'Caveat',cursive;color:var(--rose);line-height:1;
+  }
+  .envelope-doodle.star-left{left:-42px;top:20px;font-size:30px;transform:rotate(-18deg);}
+  .envelope-doodle.flower-right{right:-43px;top:8px;font-size:28px;color:var(--heart);transform:rotate(14deg);}
+  .envelope-doodle.arrow-left{left:-61px;bottom:28px;font-size:27px;transform:rotate(-12deg);}
+  .envelope-doodle.note-right{right:-50px;bottom:36px;font-size:25px;color:var(--denim);transform:rotate(10deg);}
+  .envelope-doodle.postmark{right:-31px;top:72px;width:48px;height:48px;border:2px solid var(--denim);border-radius:50%;font-size:14px;display:grid;place-items:center;text-align:center;transform:rotate(13deg);}
+  .envelope-wrap{position:relative;}
+
   /* ---------- buttons ---------- */
   .btn{
     display:inline-flex;align-items:center;gap:10px;
@@ -192,6 +226,26 @@
   .sticker{position:absolute;font-size:30px;line-height:1;user-select:none;}
   .sticker-heart{top:-16px;left:30px;color:var(--heart);transform:rotate(-14deg);}
   .sticker-bow{top:-14px;right:26px;transform:rotate(12deg);font-size:26px;}
+  .card-doodle{position:absolute;z-index:1;pointer-events:none;user-select:none;line-height:1;font-family:'Caveat',cursive;}
+  .card-doodle.sun{top:25px;left:9px;font-size:28px;color:#d99a2b;transform:rotate(-16deg);}
+  .card-doodle.sparkle{top:37px;right:8px;font-size:24px;color:var(--denim);transform:rotate(12deg);}
+  .card-doodle.flower{bottom:24px;left:10px;font-size:27px;color:var(--heart);transform:rotate(14deg);}
+  .card-doodle.arrow{bottom:20px;right:9px;font-size:25px;color:var(--rose);transform:rotate(-10deg);}
+  .letter{position:relative;z-index:2;}
+  .letter-margin-doodle{position:absolute;z-index:1;pointer-events:none;user-select:none;font-family:'Caveat',cursive;line-height:1;}
+  .letter-margin-doodle.m1{top:23%;left:-18px;font-size:28px;color:var(--denim);transform:rotate(-18deg);}
+  .letter-margin-doodle.m2{top:39%;right:-18px;font-size:25px;color:var(--heart);transform:rotate(14deg);}
+  .letter-margin-doodle.m3{top:54%;left:-20px;font-size:26px;color:#d99a2b;transform:rotate(12deg);}
+  .letter-margin-doodle.m4{top:68%;right:-18px;font-size:28px;color:var(--rose);transform:rotate(-11deg);}
+  .letter-margin-doodle.m5{top:82%;left:-19px;font-size:24px;color:var(--heart);transform:rotate(-8deg);}
+  .letter-margin-doodle.m6{top:91%;right:22px;font-size:25px;color:var(--denim);transform:rotate(9deg);}
+  .letter-margin-doodle.m7{top:13%;right:31%;font-size:20px;color:#d99a2b;transform:rotate(-12deg);}
+  .letter-margin-doodle.m8{top:47%;left:30%;font-size:19px;color:var(--rose);transform:rotate(8deg);}
+  @media(max-width:599px){
+    .letter-margin-doodle.m1,.letter-margin-doodle.m2,.letter-margin-doodle.m3,.letter-margin-doodle.m4,.letter-margin-doodle.m5{font-size:20px;}
+    .letter-margin-doodle.m1,.letter-margin-doodle.m3,.letter-margin-doodle.m5{left:3px;}
+    .letter-margin-doodle.m2,.letter-margin-doodle.m4{right:3px;}
+  }
 
   .letter p{font-size:19px;line-height:1.78;margin:0 0 22px;}
   .salutation{font-family:'Caveat',cursive;font-weight:600;font-size:42px;color:var(--rose);margin:0 0 28px;}
@@ -215,6 +269,10 @@
     font-family:'Caveat',cursive;font-size:30px;text-align:center;
     color:var(--denim);margin:0 0 42px;
   }
+  .gallery{position:relative;}
+  .gallery::before,.gallery::after{position:absolute;pointer-events:none;font-family:'Caveat',cursive;line-height:1;}
+  .gallery::before{content:'✦';top:-13px;left:4%;font-size:28px;color:var(--rose);transform:rotate(-15deg);}
+  .gallery::after{content:'♡';top:18px;right:5%;font-size:34px;color:var(--heart);transform:rotate(13deg);}
   .photo-stack{display:flex;flex-direction:column;align-items:center;gap:40px;}
 
   .photo{
@@ -310,13 +368,36 @@
   </svg>
 
   <div id="envelope-screen">
+    <span class="screen-doodle s1" aria-hidden="true">♥</span>
+    <span class="screen-doodle s2" aria-hidden="true">✿</span>
+    <span class="screen-doodle s3" aria-hidden="true">☼</span>
+    <span class="screen-doodle s4" aria-hidden="true">♡</span>
+    <span class="screen-doodle s5" aria-hidden="true">✦</span>
+    <span class="screen-doodle s6" aria-hidden="true">♥</span>
+    <span class="screen-doodle s7" aria-hidden="true">✧</span>
+    <span class="screen-doodle s8" aria-hidden="true">♪</span>
+    <span class="screen-doodle s9" aria-hidden="true">✿</span>
+    <span class="screen-doodle s10" aria-hidden="true">✦</span>
+    <span class="screen-doodle s11" aria-hidden="true">♡</span>
+    <span class="screen-doodle s12" aria-hidden="true">✧</span>
+    <span class="screen-doodle s13" aria-hidden="true">☁</span>
+    <span class="screen-doodle s14" aria-hidden="true">⚡</span>
+    <span class="screen-doodle s15" aria-hidden="true">☺</span>
+    <span class="screen-doodle s16" aria-hidden="true">⌁</span>
+    <span class="screen-doodle s17" aria-hidden="true">∞</span>
+    <span class="screen-doodle s18" aria-hidden="true">🎀</span>
     <p class="hero-headline">
-      <span class="ghost" aria-hidden="true">happy birthday,<br>aahana</span>
-      <span class="crisp">happy birthday,<br>aahana</span>
+      <span class="ghost" aria-hidden="true">Special Letter</span>
+      <span class="crisp">Special Letter</span>
     </p>
 
     <div class="envelope-wrap">
       <div class="envelope" id="envelope" aria-hidden="true">
+        <span class="envelope-doodle star-left">✦</span>
+        <span class="envelope-doodle flower-right">✿</span>
+        <span class="envelope-doodle arrow-left">↗</span>
+        <span class="envelope-doodle note-right">♪</span>
+        <span class="envelope-doodle postmark">LOVE<br>MAIL</span>
         <div class="envelope-peek"></div>
         <div class="envelope-body"></div>
         <div class="envelope-flap"></div>
@@ -336,6 +417,18 @@
     <section class="letter-card">
       <span class="sticker sticker-heart" aria-hidden="true">♥</span>
       <span class="sticker sticker-bow" aria-hidden="true">🎀</span>
+      <span class="card-doodle sun" aria-hidden="true">☼</span>
+      <span class="card-doodle sparkle" aria-hidden="true">✧</span>
+      <span class="card-doodle flower" aria-hidden="true">❀</span>
+      <span class="card-doodle arrow" aria-hidden="true">↘</span>
+      <span class="letter-margin-doodle m1" aria-hidden="true">↗</span>
+      <span class="letter-margin-doodle m2" aria-hidden="true">♥</span>
+      <span class="letter-margin-doodle m3" aria-hidden="true">☼</span>
+      <span class="letter-margin-doodle m4" aria-hidden="true">✦</span>
+      <span class="letter-margin-doodle m5" aria-hidden="true">❀</span>
+      <span class="letter-margin-doodle m6" aria-hidden="true">♪</span>
+      <span class="letter-margin-doodle m7" aria-hidden="true">✧</span>
+      <span class="letter-margin-doodle m8" aria-hidden="true">~</span>
       <div class="letter">
         <p class="salutation">My best frund,</p>
 
